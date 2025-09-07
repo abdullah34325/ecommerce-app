@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key-for-testing')
 DEBUG = True  # keep True for local testing
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # Installed apps
 INSTALLED_APPS = [
